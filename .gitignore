@@ -1,0 +1,16 @@
+.DS_Store
+.nodemonignore
+.sass-cache/
+npm-debug.log
+node_modules/
+public/dist
+app/tests/coverage/
+.bower-*/
+.idea/
+*.sublime-*
+logs/*
+*.log
+*.log.*
+bower_components
+pkgtime
+build.info
