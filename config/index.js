@@ -6,7 +6,7 @@ var config = {
     //模板所在的目录
     "viewDir": path.join(__dirname,'../app','view'),
     //log所在的目录
-    "logDir": path.join(__dirname,'../', 'log'),
+    "logDir": path.join(__dirname,'../', 'logs'),
 
 };
 

@@ -1,9 +1,9 @@
 var koa = require('koa');
 var app = koa();
-var isDev = app.env==="development";
+var isDev = app.env==="development" || app.env==="local";
 var path = require('path');
 var util = require('./util');
-
+//var logger = require('log4js');
 //配置文件
 var config = require('./config');
 
@@ -16,6 +16,10 @@ var xtplApp = require('xtpl/lib/koa');
 xtplApp(app,{
     views: config.viewDir
 });
+
+
+
+
 
 
 var router = require('koa-router');
@@ -32,7 +36,7 @@ util.getGlobbedFiles('app/**/*.routers.js').forEach(function(routePath) {
 		}
 });
 
-app.listen(config.port);
-console.log('listening on port %s',config.port);
+//app.listen(config.port);
+//console.log('listening on port %s',config.port);
 
 module.exports = app;

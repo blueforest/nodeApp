@@ -1,6 +1,5 @@
-#!/bin/bash
+#!/bin/bash#!/bin/bash
 
-# Custom the application name, like tcif, index, itier
 export PATH=/usr/local/bin:/bin:/usr/bin:$PATH
 SCRIPT_DIR=`dirname $0`
 cd $SCRIPT_DIR
@@ -9,7 +8,7 @@ cd $SCRIPT_DIR/../../../
 BASE_HOME=`pwd`
 PWD=`pwd`
 PROJECT_NAME=`basename ${BASE_HOME}`
-STATUSROOT_HOME=$BASE_HOME/target/${PROJECT_NAME}
+
 NODEJS=/usr/local/bin/node
 STDOUT_LOG=${BASE_HOME}/logs/nodejs_stdout.log
 ulimit -c unlimited

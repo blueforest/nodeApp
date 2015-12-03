@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=local DEBUG=nodeapp node --harmony server.js",
+    "start": "NODE_ENV=local DEBUG=nodeapp node --harmony bin/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,10 +12,14 @@
   "dependencies": {
     "co": "^4.6.0",
     "glob": "^6.0.1",
+    "graceful": "^1.0.0",
     "koa": "~1.1.2",
     "koa-router": "~3.6.0",
     "koa-static": "^1.5.2",
     "lodash": "^3.10.1",
+    "log4js": "^0.6.29",
+    "mini-logger": "^1.0.0",
+    "recluster": "^0.4.5",
     "xtemplate": "^4.3.1",
     "xtpl": "^3.2.0"
   }
