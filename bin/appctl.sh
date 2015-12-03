@@ -10,7 +10,7 @@ PWD=`pwd`
 PROJECT_NAME=`basename ${BASE_HOME}`
 
 NODEJS=/usr/local/bin/node
-STDOUT_LOG=${BASE_HOME}/admin/nodeapp/logs/nodejs_stdout.log
+STDOUT_LOG=${BASE_HOME}/admin/nodeApp/logs/nodejs_stdout.log
 ulimit -c unlimited
 if [ -f $SCRIPT_DIR/.env ]; then
     export NODE_ENV=`cat $SCRIPT_DIR/.env`
