@@ -1,5 +1,5 @@
 #!/bin/bash#!/bin/bash
-sh bin/build.sh
+#sh bin/build.sh
 export PATH=/usr/local/bin:/bin:/usr/bin:$PATH
 export NODE_ENV="production"
 export PORT=80
