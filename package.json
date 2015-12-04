@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=local DEBUG=nodeapp node --harmony bin/app.js",
+    "start": "NODE_ENV=local  node --harmony bin/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
