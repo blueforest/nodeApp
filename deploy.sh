@@ -2,7 +2,7 @@
 #sh bin/build.sh
 export PATH=/usr/local/bin:/bin:/usr/bin:$PATH
 export NODE_ENV="production"
-export PORT=80
+
 NODEJS=/usr/local/bin/node
 STDOUT_LOG=/home/admin/nodeApp/logs/nodejs_stdout.log
 
