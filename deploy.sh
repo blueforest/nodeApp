@@ -21,7 +21,7 @@ fi
 
 start()
 {
-        $NODEJS --harmony  bin/app.js >$STDOUT_LOG 2>&1 &
+        $NODEJS --harmony  bin/server.js >$STDOUT_LOG 2>&1 &
         echo "app start"
 }
 stop()
