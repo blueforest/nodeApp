@@ -20,8 +20,6 @@ xtplApp(app,{
 
 
 
-
-
 var router = require('koa-router');
 
 app.use(router(app));
